@@ -1,0 +1,16 @@
+01、原版 bbr
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+
+验证是否安装BBr
+lsmod | grep bbr
+
+01、自备bbr
+
+
+
+02、原版 v2ray
+bash <(curl -L -s https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh) | tee v2ray_ins.log
+
+02、自备 v2ray
+bash <(curl -L -s https://raw.githubusercontent.com/trace0829/Trace/master/install.sh) | tee v2ray_ins.log
+
