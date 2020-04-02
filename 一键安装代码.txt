@@ -1,0 +1,22 @@
+01、trojan原版
+curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_centos7.sh && chmod +x trojan_centos7.sh && ./trojan_centos7.sh
+
+
+
+01、trojan自备
+curl -O https://raw.githubusercontent.com/trace0829/Trace/master/trojan_centos7.sh && chmod +x trojan_centos7.sh && ./trojan_centos7.sh
+
+
+
+02、bbr原版
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+
+02、bbr自备
+wget -N --no-check-certificate "https://raw.githubusercontent.com/trace0829/Trace/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+
+
+
